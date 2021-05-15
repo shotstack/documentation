@@ -1,0 +1,21 @@
+{
+  "unversionedId": "sdks",
+  "id": "sdks",
+  "isDocsHomePage": false,
+  "title": "SDK's",
+  "description": "The following SDK's are currently available, installable via standard package managers:",
+  "source": "@site/docs/sdks.md",
+  "sourceDirName": ".",
+  "slug": "/sdks",
+  "permalink": "/docs/guide/sdks",
+  "version": "current",
+  "frontMatter": {
+    "title": "SDK's",
+    "hide_table_of_contents": false
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "API Reference",
+    "permalink": "/docs/guide/api-reference"
+  }
+}

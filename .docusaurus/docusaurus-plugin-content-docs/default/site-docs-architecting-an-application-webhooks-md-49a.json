@@ -1,0 +1,25 @@
+{
+  "unversionedId": "architecting-an-application/webhooks",
+  "id": "architecting-an-application/webhooks",
+  "isDocsHomePage": false,
+  "title": "Webhooks",
+  "description": "Receive callback POST notifications whenever the status of a render completes or fails",
+  "source": "@site/docs/architecting-an-application/webhooks.md",
+  "sourceDirName": "architecting-an-application",
+  "slug": "/architecting-an-application/webhooks",
+  "permalink": "/docs/guide/architecting-an-application/webhooks",
+  "version": "current",
+  "frontMatter": {
+    "title": "Webhooks",
+    "description": "Receive callback POST notifications whenever the status of a render completes or fails"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Guidelines",
+    "permalink": "/docs/guide/architecting-an-application/guidelines"
+  },
+  "next": {
+    "title": "HTML Support",
+    "permalink": "/docs/guide/architecting-an-application/html-support"
+  }
+}

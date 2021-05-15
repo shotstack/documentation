@@ -1,0 +1,25 @@
+{
+  "unversionedId": "architecting-an-application/guidelines",
+  "id": "architecting-an-application/guidelines",
+  "isDocsHomePage": false,
+  "title": "Guidelines",
+  "description": "Guidelines on how to create an application incorporating the Shotstack API.",
+  "source": "@site/docs/architecting-an-application/guidelines.md",
+  "sourceDirName": "architecting-an-application",
+  "slug": "/architecting-an-application/guidelines",
+  "permalink": "/docs/guide/architecting-an-application/guidelines",
+  "version": "current",
+  "frontMatter": {
+    "title": "Architecture Guidelines",
+    "description": "Guidelines on how to create an application incorporating the Shotstack API."
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Hello World (Postman)",
+    "permalink": "/docs/guide/getting-started/hello-world-postman"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docs/guide/architecting-an-application/webhooks"
+  }
+}

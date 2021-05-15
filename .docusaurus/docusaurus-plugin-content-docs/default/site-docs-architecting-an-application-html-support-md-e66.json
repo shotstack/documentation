@@ -1,0 +1,25 @@
+{
+  "unversionedId": "architecting-an-application/html-support",
+  "id": "architecting-an-application/html-support",
+  "isDocsHomePage": false,
+  "title": "HTML Support",
+  "description": "Supported HTML tags and CSS properties and selectors",
+  "source": "@site/docs/architecting-an-application/html-support.md",
+  "sourceDirName": "architecting-an-application",
+  "slug": "/architecting-an-application/html-support",
+  "permalink": "/docs/guide/architecting-an-application/html-support",
+  "version": "current",
+  "frontMatter": {
+    "title": "HTML Support",
+    "description": "Supported HTML tags and CSS properties and selectors"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docs/guide/architecting-an-application/webhooks"
+  },
+  "next": {
+    "title": "Disk Types",
+    "permalink": "/docs/guide/architecting-an-application/disk-types"
+  }
+}

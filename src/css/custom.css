@@ -1,0 +1,96 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&&family=Kanit:wght@600&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Nunito Sans';
+}
+
+:root {
+  --ifm-color-primary: #25d3d0;
+  --ifm-color-primary-dark: #21bebb;
+  --ifm-color-primary-darker: #1fb3b1;
+  --ifm-color-primary-darkest: #1a9492;
+  --ifm-color-primary-light: #35dcd9;
+  --ifm-color-primary-lighter: #40dddb;
+  --ifm-color-primary-lightest: #5fe3e1;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+article {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  height: 76px;
+}
+
+.navbar__logo {
+  height: 48px;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.admonition-icon svg {
+	fill: #25d3d0;
+}
+
+.alert--info,
+.alert--success,
+.alert--warning,
+.alert--danger {
+	--ifm-alert-background-color: #f5f7f9;
+	--ifm-alert-border-color: #f5f7f9;
+}
+
+.alert.alert--warning {
+  border-left-color: #ffba00;
+}
+
+.alert.alert--warning .admonition-icon svg {
+	fill: #ffba00
+}
+
+.alert.alert--danger {
+  border-left-color: #fa383e;
+}
+
+.alert.alert--danger .admonition-icon svg {
+	fill: #fa383e;
+}
+
+.alert {
+  color: #313131;
+  border-left: 4px #25d3d0 solid;
+}
+
+article h2,
+article h3 {
+  color: #25d3d0;
+  font-weight: 300;
+}
+
+.menu__link,
+.table-of-contents__link {
+	font-weight: 600;
+}

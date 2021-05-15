@@ -1,0 +1,25 @@
+{
+  "unversionedId": "getting-started/core-concepts",
+  "id": "getting-started/core-concepts",
+  "isDocsHomePage": false,
+  "title": "Core Concepts",
+  "description": "Learn the basics of how a video edit is put together using JSON",
+  "source": "@site/docs/getting-started/core-concepts.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/core-concepts",
+  "permalink": "/docs/guide/getting-started/core-concepts",
+  "version": "current",
+  "frontMatter": {
+    "title": "Core Concepts",
+    "description": "Learn the basics of how a video edit is put together using JSON"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "What is Shotstack?",
+    "permalink": "/docs/guide/"
+  },
+  "next": {
+    "title": "Request API Keys",
+    "permalink": "/docs/guide/getting-started/request-api-keys"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "architecting-an-application/disk-types",
+  "id": "architecting-an-application/disk-types",
+  "isDocsHomePage": false,
+  "title": "Disk Types",
+  "description": "Choose the correct disk type for your render task",
+  "source": "@site/docs/architecting-an-application/disk-types.md",
+  "sourceDirName": "architecting-an-application",
+  "slug": "/architecting-an-application/disk-types",
+  "permalink": "/docs/guide/architecting-an-application/disk-types",
+  "version": "current",
+  "frontMatter": {
+    "title": "Disk Types",
+    "description": "Choose the correct disk type for your render task"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "HTML Support",
+    "permalink": "/docs/guide/architecting-an-application/html-support"
+  },
+  "next": {
+    "title": "Caching",
+    "permalink": "/docs/guide/architecting-an-application/caching"
+  }
+}

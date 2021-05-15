@@ -1,0 +1,26 @@
+{
+  "unversionedId": "api-reference",
+  "id": "api-reference",
+  "isDocsHomePage": false,
+  "title": "API Reference",
+  "description": "Comprehensive API reference with JSON and code examples.",
+  "source": "@site/docs/api-reference.md",
+  "sourceDirName": ".",
+  "slug": "/api-reference",
+  "permalink": "/docs/guide/api-reference",
+  "version": "current",
+  "frontMatter": {
+    "title": "API Reference",
+    "description": "Comprehensive API reference with JSON and code examples.",
+    "hide_table_of_contents": false
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Limitations",
+    "permalink": "/docs/guide/architecting-an-application/limitations"
+  },
+  "next": {
+    "title": "SDK's",
+    "permalink": "/docs/guide/sdks"
+  }
+}
