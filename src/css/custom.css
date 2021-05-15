@@ -84,6 +84,10 @@ h1 {
   border-left: 4px #25d3d0 solid;
 }
 
+.alert a {
+  color: #25d3d0;
+}
+
 article h2,
 article h3 {
   color: #25d3d0;
