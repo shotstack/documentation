@@ -22,7 +22,7 @@ An edit encompasses everything about the video that you want to create and is ma
 which describes the assets \(videos, images and titles\) that you want use and how they are arranged \(edited\) and the
 **output** format \(gif or mp4\) and resolution \(HD, SD, mobile, etc..\).
 
-```javascript
+```json
 {
     timeline: {...},   // the main video edit description
     output: {...}      // the output format and resolution
@@ -40,7 +40,7 @@ The Edit is the JSON payload that you POST to the _render_ endpoint to create yo
 The timeline represents the time that the video will play for, using seconds and starting from 0. A timeline is made up
 of **tracks** which are like layers that contain clips.
 
-```javascript
+```json
 {
     timeline: {
         tracks: [{...}]   // array of tracks
@@ -62,7 +62,7 @@ a video and a watermark track that plays over the top of everything.
 Tracks are an array within the timeline, the first element is the top track and the last element is the bottom most
 track:
 
-```javascript
+```json
 {
     timeline: {
         tracks: [
@@ -90,7 +90,7 @@ in seconds.
 Each **asset** type has a specific set of options and features but you must specify the **type** of asset and also the
 **content** of the asset such a URL **src** to a video or image file or for titles a **text** string.
 
-```javascript
+```json
 {
     timeline: {
         tracks: [
@@ -124,14 +124,17 @@ Each **asset** type has a specific set of options and features but you must spec
 }
 ```
 
-:::danger Warning Do not place clips on a track so that their start or end times overlap, this will result in the clips
+:::danger
+
+Warning Do not place clips on a track so that their start or end times overlap, this will result in the clips
 flashing between each other as the API does not know which clip to display first.
+
 :::
 
 A clip can also have transitions, effects and filters applied to them. A clip may look something like this when all
 options are applied:
 
-```javascript
+```json
 {
   "asset":{
     "type": "video",

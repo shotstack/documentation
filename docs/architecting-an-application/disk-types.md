@@ -40,7 +40,7 @@ so you do not need to pass any value to use the **local** disk.
 
 If you want to explicitly choose **local** you can use the **disk** parameter:
 
-```text
+```json
 {
     "timeline": {...},
     "output": {...},
@@ -50,7 +50,7 @@ If you want to explicitly choose **local** you can use the **disk** parameter:
 
 To use the **mount** disk type set the **disk** parameter to mount:
 
-```text
+```json
 {
     "timeline": {...},
     "output": {...},

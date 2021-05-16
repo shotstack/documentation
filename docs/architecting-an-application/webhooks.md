@@ -25,7 +25,7 @@ Setting up a webhook callback using the Shotstack API is easy. When a render com
 
 Simply provide the URL of the page or endpoint in your application that will receive the POSTed data using the `callback` parameter of an edit. Add the callback parameter as shown below:
 
-```text
+```json
 {
     "timeline": {...},
     "output": {...},
@@ -41,7 +41,7 @@ The `callback` parameter is also documented in our [API Reference](https://shots
 
 In the example above we added a callback parameter with a value of _https://my-application.com/status.php_. Assuming your web site or application is hosted at _https://my-application.com_ you would add a _status.php_ script \(or equivalent language\) like:
 
-```text
+```php
 <?php
 $content = json_decode(file_get_contents("php://input"));
 echo $content->status;
@@ -53,14 +53,16 @@ In a real world application you may want to confirm the status is done and then 
 
 The data sent to the callback URL is sent as JSON encoded data and the payload looks similar to:
 
-```text
+```json
 {
+    "type": "edit",
+    "action": "render",
     "id": "6d7acbe6-e7c1-4cf8-b8ea-94e7522878cc",
     "owner": "mwipwx4ds3",
     "status": "done",
-    "url: "https://shotstack-api-v1-output.s3-ap-southeast-2.amazonaws.com/mwipwx4ds3/6d7acbe6-e7c1-4cf8-b8ea-94e7522878cc.mp4",
-    error: null,
-    completed: "2020-02-24T11:52:20.810Z"
+    "url": "https://shotstack-api-v1-output.s3-ap-southeast-2.amazonaws.com/mwipwx4ds3/6d7acbe6-e7c1-4cf8-b8ea-94e7522878cc.mp4",
+    "error": null,
+    "completed": "2020-02-24T11:52:20.810Z"
 }
 ```
 

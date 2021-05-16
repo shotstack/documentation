@@ -20,8 +20,14 @@ Staging sandbox and production URL's are:
 | :--------------------------------------------------------------- | :--------------------------------------------------------- |
 | [https://api.shotstack.io/stage](https://api.shotstack.io/stage) | [https://api.shotstack.io/v1](https://api.shotstack.io/v1) |
 
-:::tip You can use your sandbox account as much as you like, rate limits apply and videos are watermarked.
+:::tip
+
+You can use your sandbox account as much as you like, rate limits apply and videos are watermarked.
+
 :::
 
-:::caution Using your production key will use up your credits and may result in being charged.
+:::caution
+
+Using your production key will use up your credits and may result in being charged.
+
 :::

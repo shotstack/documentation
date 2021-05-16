@@ -11,7 +11,7 @@ multiple renders, for exampl logos, soundtracks and intro/outro videos.
 Caching is enabled by default and you do not need to do anything. If you wish to disable caching you can pass a boolean
 parameter with the timeline settings:
 
-```text
+```json
 {
    "timeline":{
       "cache": "false",
