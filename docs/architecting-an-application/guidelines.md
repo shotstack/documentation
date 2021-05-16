@@ -65,7 +65,7 @@ Anything else you will probably want to inform the user to wait and poll again i
 
 :::info Tip
 
-Once your are comfortable with teh concept of polling we recommend [using webhooks](webhooks.md) to reduce the number of
+Once your are comfortable with the concept of polling we recommend [using webhooks](webhooks.md) to reduce the number of
 calls to the API and receive a notification as soon as rendering completes.
 
 :::
