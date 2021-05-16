@@ -182,6 +182,9 @@ export default {
       },
       "additionalLanguages": []
     },
+    "googleAnalytics": {
+      "trackingID": "UA-124590329-1"
+    },
     "navbar": {
       "logo": {
         "alt": "Shotstack",
@@ -242,6 +245,14 @@ export default {
         "theme": {
           "customCss": "/home/jeff/Documents/projects/shotstack/repos/docs/src/css/custom.css"
         }
+      }
+    ],
+    [
+      "@docusaurus/plugin-sitemap",
+      {
+        "changefreq": "weekly",
+        "priority": 0.5,
+        "trailingSlash": false
       }
     ]
   ],
