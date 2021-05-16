@@ -24,8 +24,8 @@ which describes the assets \(videos, images and titles\) that you want use and h
 
 ```json
 {
-    timeline: {...},   // the main video edit description
-    output: {...}      // the output format and resolution
+    "timeline": {...},   // the main video edit description
+    "output": {...}      // the output format and resolution
 }
 ```
 
@@ -42,8 +42,8 @@ of **tracks** which are like layers that contain clips.
 
 ```json
 {
-    timeline: {
-        tracks: [{...}]   // array of tracks
+    "timeline": {
+        "tracks": [{...}]   // array of tracks
     },
     ...
 }
@@ -64,8 +64,8 @@ track:
 
 ```json
 {
-    timeline: {
-        tracks: [
+    "timeline": {
+        "tracks": [
             {
                 ...   // top track
             },
@@ -92,10 +92,10 @@ Each **asset** type has a specific set of options and features but you must spec
 
 ```json
 {
-    timeline: {
-        tracks: [
+    "timeline": {
+        "tracks": [
             {
-                clips: [
+                "clips": [
                    {
                        // place an image at the very start of the track/timeline that plays for 4 seconds.
                        "asset":{
@@ -136,20 +136,20 @@ options are applied:
 
 ```json
 {
-  "asset":{
-    "type": "video",
-    "src": "https://s3-ap-southeast-2.amazonaws.com/my-bucket/footage.mp4",
-    "trim": 2,
-    "volume": 0.5
-  },
-  "start": 0,
-  "length": 4,
-  "transition": {
-    "in": "fade",
-    "out": "fade"
-  },
-  "filter": "boost",
-  "effect": "slideRight"
+    "asset":{
+        "type": "video",
+        "src": "https://s3-ap-southeast-2.amazonaws.com/my-bucket/footage.mp4",
+        "trim": 2,
+        "volume": 0.5
+    },
+    "start": 0,
+    "length": 4,
+    "transition": {
+        "in": "fade",
+        "out": "fade"
+    },
+    "filter": "boost",
+    "effect": "slideRight"
 }
 ```
 
