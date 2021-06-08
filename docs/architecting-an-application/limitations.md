@@ -15,7 +15,7 @@ this in mind when doing status requests to check if a render has completed or no
 
 The production API has the following usage limits:
 
-- 25 requests per second \(burst to 50 r/s\)
+- 10 requests per second
 - 10,000 requests per day \(including polling and renders\)
 
 Limits may be increased if needed, please contact us.
@@ -31,7 +31,7 @@ To reduce the number of polling requests consider using [webhooks](webhooks.md).
 
 The render environment has the following limits:
 
-- Max 15 minutes render time.
+- Max 15 minutes render time. If your video does not render within 15 minutes contact us.
 - The amount of footage you can ingest and create for each render is 512MB when using the [local disk
   type](disk-types.md#speed-optimised-local-disk-type) – i.e. the original footage you send to be trimmed and edited
   plus the size of the final output video must be less than 512MB.

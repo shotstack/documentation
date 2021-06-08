@@ -16,9 +16,9 @@ ptmpOiyKgGYMnnONwvXH7FHzDGOazrIjaEDUS7Cf
 
 Staging sandbox and production URL's are:
 
-| Sandbox URL                                                      | Production URL                                             |
-| :--------------------------------------------------------------- | :--------------------------------------------------------- |
-| [https://api.shotstack.io/stage](https://api.shotstack.io/stage) | [https://api.shotstack.io/v1](https://api.shotstack.io/v1) |
+| Sandbox URL                    | Production URL              |
+| :------------------------------| :-------------------------- |
+| https://api.shotstack.io/stage | https://api.shotstack.io/v1 |
 
 :::tip
 
