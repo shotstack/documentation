@@ -75,6 +75,33 @@
         ]
       },
       {
+        "collapsed": true,
+        "type": "category",
+        "label": "Serving Assets",
+        "items": [
+          {
+            "type": "link",
+            "label": "Hosting and Serving Assets",
+            "href": "/docs/guide/serving-assets/hosting"
+          },
+          {
+            "type": "link",
+            "label": "Serve API",
+            "href": "/docs/guide/serving-assets/serve-api"
+          },
+          {
+            "type": "link",
+            "label": "Polling vs Webhook",
+            "href": "/docs/guide/serving-assets/polling-vs-webhook"
+          },
+          {
+            "type": "link",
+            "label": "Host your Own Assets",
+            "href": "/docs/guide/serving-assets/self-host"
+          }
+        ]
+      },
+      {
         "type": "link",
         "label": "API Reference",
         "href": "/docs/guide/api-reference"
@@ -99,6 +126,10 @@
     "/docs/guide/getting-started/hello-world-using-curl": "someSidebar",
     "/docs/guide/getting-started/request-api-keys": "someSidebar",
     "/docs/guide/sdks": "someSidebar",
+    "/docs/guide/serving-assets/hosting": "someSidebar",
+    "/docs/guide/serving-assets/polling-vs-webhook": "someSidebar",
+    "/docs/guide/serving-assets/self-host": "someSidebar",
+    "/docs/guide/serving-assets/serve-api": "someSidebar",
     "/docs/guide/": "someSidebar"
   }
 }

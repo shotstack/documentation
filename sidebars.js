@@ -19,6 +19,12 @@ module.exports = {
         "architecting-an-application/caching",
         "architecting-an-application/limitations",
       ],
+      "Serving Assets": [
+        "serving-assets/hosting",
+        "serving-assets/serve-api",
+        "serving-assets/polling-vs-webhook",
+        "serving-assets/self-host",
+      ],
     },
     {
       type: "doc",

@@ -19,7 +19,7 @@
     "permalink": "/docs/guide/architecting-an-application/caching"
   },
   "next": {
-    "title": "API Reference",
-    "permalink": "/docs/guide/api-reference"
+    "title": "Hosting and Serving Assets",
+    "permalink": "/docs/guide/serving-assets/hosting"
   }
 }

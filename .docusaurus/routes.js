@@ -3,8 +3,43 @@ import React from 'react';
 import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
+  path: '/docs/guide/__docusaurus/debug',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug','391'),
+  exact: true,
+},
+{
+  path: '/docs/guide/__docusaurus/debug/config',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug/config','102'),
+  exact: true,
+},
+{
+  path: '/docs/guide/__docusaurus/debug/content',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug/content','4da'),
+  exact: true,
+},
+{
+  path: '/docs/guide/__docusaurus/debug/globalData',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug/globalData','a0f'),
+  exact: true,
+},
+{
+  path: '/docs/guide/__docusaurus/debug/metadata',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug/metadata','239'),
+  exact: true,
+},
+{
+  path: '/docs/guide/__docusaurus/debug/registry',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug/registry','368'),
+  exact: true,
+},
+{
+  path: '/docs/guide/__docusaurus/debug/routes',
+  component: ComponentCreator('/docs/guide/__docusaurus/debug/routes','0f1'),
+  exact: true,
+},
+{
   path: '/docs/guide/',
-  component: ComponentCreator('/docs/guide/','8d6'),
+  component: ComponentCreator('/docs/guide/','bd2'),
   
   routes: [
 {
@@ -70,6 +105,26 @@ export default [
 {
   path: '/docs/guide/sdks',
   component: ComponentCreator('/docs/guide/sdks','2da'),
+  exact: true,
+},
+{
+  path: '/docs/guide/serving-assets/hosting',
+  component: ComponentCreator('/docs/guide/serving-assets/hosting','df8'),
+  exact: true,
+},
+{
+  path: '/docs/guide/serving-assets/polling-vs-webhook',
+  component: ComponentCreator('/docs/guide/serving-assets/polling-vs-webhook','358'),
+  exact: true,
+},
+{
+  path: '/docs/guide/serving-assets/self-host',
+  component: ComponentCreator('/docs/guide/serving-assets/self-host','435'),
+  exact: true,
+},
+{
+  path: '/docs/guide/serving-assets/serve-api',
+  component: ComponentCreator('/docs/guide/serving-assets/serve-api','ddc'),
   exact: true,
 },
 ]

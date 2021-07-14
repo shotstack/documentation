@@ -16,8 +16,8 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Limitations",
-    "permalink": "/docs/guide/architecting-an-application/limitations"
+    "title": "Host your Own Assets",
+    "permalink": "/docs/guide/serving-assets/self-host"
   },
   "next": {
     "title": "SDK's",

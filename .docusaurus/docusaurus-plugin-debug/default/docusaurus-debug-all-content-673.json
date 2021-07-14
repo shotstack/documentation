@@ -73,6 +73,29 @@
                 ]
               },
               {
+                "collapsed": true,
+                "type": "category",
+                "label": "Serving Assets",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "serving-assets/hosting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "serving-assets/serve-api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "serving-assets/polling-vs-webhook"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "serving-assets/self-host"
+                  }
+                ]
+              },
+              {
                 "type": "doc",
                 "id": "api-reference"
               },
@@ -95,6 +118,10 @@
             "/docs/guide/getting-started/hello-world-using-curl": "someSidebar",
             "/docs/guide/getting-started/request-api-keys": "someSidebar",
             "/docs/guide/sdks": "someSidebar",
+            "/docs/guide/serving-assets/hosting": "someSidebar",
+            "/docs/guide/serving-assets/polling-vs-webhook": "someSidebar",
+            "/docs/guide/serving-assets/self-host": "someSidebar",
+            "/docs/guide/serving-assets/serve-api": "someSidebar",
             "/docs/guide/": "someSidebar"
           },
           "docs": [
@@ -116,8 +143,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Limitations",
-                "permalink": "/docs/guide/architecting-an-application/limitations"
+                "title": "Host your Own Assets",
+                "permalink": "/docs/guide/serving-assets/self-host"
               },
               "next": {
                 "title": "SDK's",
@@ -245,8 +272,8 @@
                 "permalink": "/docs/guide/architecting-an-application/caching"
               },
               "next": {
-                "title": "API Reference",
-                "permalink": "/docs/guide/api-reference"
+                "title": "Hosting and Serving Assets",
+                "permalink": "/docs/guide/serving-assets/hosting"
               }
             },
             {
@@ -393,6 +420,106 @@
               "previous": {
                 "title": "API Reference",
                 "permalink": "/docs/guide/api-reference"
+              }
+            },
+            {
+              "unversionedId": "serving-assets/hosting",
+              "id": "serving-assets/hosting",
+              "isDocsHomePage": false,
+              "title": "Hosting and Serving Assets",
+              "description": "How to host and manage your videos and images using the Shotstack CDN and Serve API.",
+              "source": "@site/docs/serving-assets/hosting.md",
+              "sourceDirName": "serving-assets",
+              "slug": "/serving-assets/hosting",
+              "permalink": "/docs/guide/serving-assets/hosting",
+              "version": "current",
+              "frontMatter": {
+                "title": "Host and Serve Video and Images",
+                "description": "How to host and manage your videos and images using the Shotstack CDN and Serve API."
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Limitations",
+                "permalink": "/docs/guide/architecting-an-application/limitations"
+              },
+              "next": {
+                "title": "Serve API",
+                "permalink": "/docs/guide/serving-assets/serve-api"
+              }
+            },
+            {
+              "unversionedId": "serving-assets/polling-vs-webhook",
+              "id": "serving-assets/polling-vs-webhook",
+              "isDocsHomePage": false,
+              "title": "Polling vs Webhook",
+              "description": "Receive a webhook when an asset is copied to the Shotstack CDN",
+              "source": "@site/docs/serving-assets/polling-vs-webhook.md",
+              "sourceDirName": "serving-assets",
+              "slug": "/serving-assets/polling-vs-webhook",
+              "permalink": "/docs/guide/serving-assets/polling-vs-webhook",
+              "version": "current",
+              "frontMatter": {
+                "title": "Shotstack Hosting Asset Webhook",
+                "description": "Receive a webhook when an asset is copied to the Shotstack CDN"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Serve API",
+                "permalink": "/docs/guide/serving-assets/serve-api"
+              },
+              "next": {
+                "title": "Host your Own Assets",
+                "permalink": "/docs/guide/serving-assets/self-host"
+              }
+            },
+            {
+              "unversionedId": "serving-assets/self-host",
+              "id": "serving-assets/self-host",
+              "isDocsHomePage": false,
+              "title": "Host your Own Assets",
+              "description": "Use your own hosting service and ot-out from Shotstack's built in service",
+              "source": "@site/docs/serving-assets/self-host.md",
+              "sourceDirName": "serving-assets",
+              "slug": "/serving-assets/self-host",
+              "permalink": "/docs/guide/serving-assets/self-host",
+              "version": "current",
+              "frontMatter": {
+                "title": "Opt-out from Shotstack Hosting",
+                "description": "Use your own hosting service and ot-out from Shotstack's built in service"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Polling vs Webhook",
+                "permalink": "/docs/guide/serving-assets/polling-vs-webhook"
+              },
+              "next": {
+                "title": "API Reference",
+                "permalink": "/docs/guide/api-reference"
+              }
+            },
+            {
+              "unversionedId": "serving-assets/serve-api",
+              "id": "serving-assets/serve-api",
+              "isDocsHomePage": false,
+              "title": "Serve API",
+              "description": "Manage, lookup and delete assets hosting on teh Shotstack asset hosting CDN via the Serve API",
+              "source": "@site/docs/serving-assets/serve-api.md",
+              "sourceDirName": "serving-assets",
+              "slug": "/serving-assets/serve-api",
+              "permalink": "/docs/guide/serving-assets/serve-api",
+              "version": "current",
+              "frontMatter": {
+                "title": "Manage Hosted Assets withe the Serve API",
+                "description": "Manage, lookup and delete assets hosting on teh Shotstack asset hosting CDN via the Serve API"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Hosting and Serving Assets",
+                "permalink": "/docs/guide/serving-assets/hosting"
+              },
+              "next": {
+                "title": "Polling vs Webhook",
+                "permalink": "/docs/guide/serving-assets/polling-vs-webhook"
               }
             },
             {

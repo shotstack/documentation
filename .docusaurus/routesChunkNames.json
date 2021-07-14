@@ -1,58 +1,96 @@
 {
-  "/docs/guide/-8d6": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+  "/docs/guide/__docusaurus/debug-391": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/docs/guide/__docusaurus/debug/config-102": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/docs/guide/__docusaurus/debug/content-4da": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docs-guide-docusaurus-debug-content-246-2e4"
+  },
+  "/docs/guide/__docusaurus/debug/globalData-a0f": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/docs/guide/__docusaurus/debug/metadata-239": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/docs/guide/__docusaurus/debug/registry-368": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/docs/guide/__docusaurus/debug/routes-0f1": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/docs/guide/-bd2": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-guide-935-630"
   },
   "/docs/guide/-175": {
-    "component": "17896441",
-    "content": "13fa6293"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-13-f-c25"
   },
   "/docs/guide/api-reference-474": {
-    "component": "17896441",
-    "content": "964ae018"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-api-reference-964-74f"
   },
   "/docs/guide/architecting-an-application/caching-254": {
-    "component": "17896441",
-    "content": "207e5670"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-architecting-an-application-caching-207-8a0"
   },
   "/docs/guide/architecting-an-application/disk-types-82f": {
-    "component": "17896441",
-    "content": "1d621ec6"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-architecting-an-application-disk-types-1-d-6-27a"
   },
   "/docs/guide/architecting-an-application/guidelines-f8a": {
-    "component": "17896441",
-    "content": "b68cf16f"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-architecting-an-application-guidelinesb-68-539"
   },
   "/docs/guide/architecting-an-application/html-support-586": {
-    "component": "17896441",
-    "content": "e6690a1b"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-architecting-an-application-html-supporte-66-713"
   },
   "/docs/guide/architecting-an-application/limitations-0b5": {
-    "component": "17896441",
-    "content": "8d230b3c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-architecting-an-application-limitations-8-d-2-11a"
   },
   "/docs/guide/architecting-an-application/webhooks-ee5": {
-    "component": "17896441",
-    "content": "49ac77f3"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-architecting-an-application-webhooks-49-a-c9e"
   },
   "/docs/guide/getting-started/core-concepts-571": {
-    "component": "17896441",
-    "content": "8b9c740d"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-getting-started-core-concepts-8-b-9-71a"
   },
   "/docs/guide/getting-started/hello-world-postman-87e": {
-    "component": "17896441",
-    "content": "9821ae3d"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-getting-started-hello-world-postman-982-1c7"
   },
   "/docs/guide/getting-started/hello-world-using-curl-e7b": {
-    "component": "17896441",
-    "content": "127e87d8"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-getting-started-hello-world-using-curl-127-623"
   },
   "/docs/guide/getting-started/request-api-keys-8de": {
-    "component": "17896441",
-    "content": "a446a570"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-getting-started-request-api-keysa-44-030"
   },
   "/docs/guide/sdks-2da": {
-    "component": "17896441",
-    "content": "5c55ac87"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-sdks-5-c-5-982"
+  },
+  "/docs/guide/serving-assets/hosting-df8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-serving-assets-hosting-77-a-e23"
+  },
+  "/docs/guide/serving-assets/polling-vs-webhook-358": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-serving-assets-polling-vs-webhook-53-c-ab4"
+  },
+  "/docs/guide/serving-assets/self-host-435": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-serving-assets-self-hostcb-7-650"
+  },
+  "/docs/guide/serving-assets/serve-api-ddc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-guide-serving-assets-serve-api-0-d-9-aca"
   }
 }

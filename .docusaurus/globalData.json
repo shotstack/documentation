@@ -71,6 +71,26 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "serving-assets/hosting",
+              "path": "/docs/guide/serving-assets/hosting",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "serving-assets/polling-vs-webhook",
+              "path": "/docs/guide/serving-assets/polling-vs-webhook",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "serving-assets/self-host",
+              "path": "/docs/guide/serving-assets/self-host",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "serving-assets/serve-api",
+              "path": "/docs/guide/serving-assets/serve-api",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "what-is-shotstack",
               "path": "/docs/guide/",
               "sidebar": "someSidebar"
