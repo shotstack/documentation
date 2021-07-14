@@ -104,6 +104,7 @@ You should receive a 201 response code and payload similar to:
 :::info
 
 Take a note of the **id**, it will be different from the example above, you will need this in the next step.
+You should keep track of **id**  in your own database as there is currently no way to retrieve a list of render id's.
 
 :::
 
