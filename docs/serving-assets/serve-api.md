@@ -21,7 +21,7 @@ Given a render id you can fetch an asset using the following cURL command:
 curl -X GET \
      -H "Content-Type: application/json" \
      -H "x-api-key: ptmpOiyKgGYMnnONwvXH7FHzDGOazrIjaEDUS7Cf" \
-     https://api.shotstack.io/serve/stage/asset/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655
+     https://api.shotstack.io/serve/stage/assets/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655
 ```
 
 In the above example the `stage` is the sandbox endpoint (you can also use `v1`), `d2b46ed6-998a-4d6b-9d91-b8cf0193a655`
@@ -71,7 +71,7 @@ of different files. To lookup a specific asset you use the asset id, this can be
 curl -X GET \
      -H "Content-Type: application/json" \
      -H "x-api-key: ptmpOiyKgGYMnnONwvXH7FHzDGOazrIjaEDUS7Cf" \
-     https://api.shotstack.io/serve/stage/asset/e4433cbf-e501-76a2-ac8b-715d26997540
+     https://api.shotstack.io/serve/stage/assets/e4433cbf-e501-76a2-ac8b-715d26997540
 ```
 
 The response will be exactly the same as the request by render id:
@@ -108,7 +108,7 @@ If you know the asset id of the asset you wish to delete you can use the followi
 curl -X DELETE \
      -H "Content-Type: application/json" \
      -H "x-api-key: ptmpOiyKgGYMnnONwvXH7FHzDGOazrIjaEDUS7Cf" \
-     https://api.shotstack.io/serve/stage/asset/e4433cbf-e501-76a2-ac8b-715d26997540
+     https://api.shotstack.io/serve/stage/assets/e4433cbf-e501-76a2-ac8b-715d26997540
 ```
 
 You will receive a `204` response code, meaning the file has been deleted from storage and will expire from the CDN
