@@ -6,7 +6,7 @@ description: Create your first video in 5 minutes using the command line and Cur
 This Hello World guide should provide you with a basic understanding of how quick and easy it is to create a simple
 video using styled text, a soundtrack and a simple fade transition.
 
-Before you begin ensure you have registered and received your [API Keys](./request-api-keys.md).
+Before you begin ensure you have registered and received your [API keys](./request-api-keys.md).
 
 ### Requirements
 
@@ -30,7 +30,7 @@ Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s
 Features: AsynchDNS IDN IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz TLS-SRP HTTP2 UnixSockets HTTPS-proxy PSL
 ```
 
-### Create the Hello World Edit
+### Create the Hello World edit
 
 We'll use a text file to define the JSON data so that it is easy to edit and format. Open your preferred text editor and
 copy and paste the following JSON, save the file as **hello.json**:
@@ -108,7 +108,7 @@ You should keep track of **id**  in your own database as there is currently no w
 
 :::
 
-### Poll the API to Check the Render Status
+### Poll the API to check the render status
 
 Your video is now either waiting in a queue to be rendered or is being processed. To check the status and know when
 rendering is complete and the video file is ready we need to poll the API.
@@ -163,7 +163,7 @@ us for support.
 
 :::
 
-### View or Download the Video File
+### View or download the video file
 
 When the status returned from polling is **done** then the video is ready for download. Videos are stored online for a
 24 hour period at the following locations:

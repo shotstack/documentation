@@ -19,11 +19,11 @@ In order to integrate the Shotstack API in to your application you will need be 
 You will also need to already have an existing application or use a developer to build the application and interface to
 make the service usable by non-technical end users.
 
-## Key steps to build an Application
+## Key steps to build an application
 
-### **Prepare JSON using SDK**
+### Prepare JSON using SDK
 
-An edit in Shotstack is defined using JSON which specifies when different assets \(images, videos, titles\) will appear
+An edit in Shotstack is defined using JSON which specifies when different assets (images, videos, titles) will appear
 and play on a timeline. In order to create a video you first need to prepare the JSON data so that it contains the
 correct assets arranged on the timeline.
 
@@ -41,7 +41,7 @@ variations of a video.
 
 :::
 
-### **Post JSON to API render endpoint**
+### Post JSON to API render endpoint
 
 Once your have prepared an edit using our SDK or directly edited a JSON template you POST the data to the _**render**_
 endpoint of our API.
@@ -50,7 +50,7 @@ If you are using our SDK this will take care of the request for you. If you are 
 like Curl or a general purpose API client. You will just need to know the correct URL to use and include your API key in
 the request headers.
 
-### **Poll render endpoint**
+### Poll render endpoint
 
 The render process takes some time to complete, a one minute video might take one to two minutes to complete.
 
@@ -70,7 +70,7 @@ calls to the API and receive a notification as soon as rendering completes.
 
 :::
 
-### **Download video when rendered**
+### Download video when rendered
 
 Once the video is complete you can fetch it from our servers \(S3\) and transfer it to your own application for further
 processing.

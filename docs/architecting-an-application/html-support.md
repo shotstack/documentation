@@ -13,7 +13,7 @@ offset](https://shotstack.io/docs/api/#tocsclip) parameters.
 Advanced features of HTML5 such as CSS animations or absolute/relative positioning is not supported at this time. Images
 are also not currently supported.
 
-### Supported HTML Tags
+### Supported HTML tags
 
 | Tag          | Description                     | Comment                                                                                                                                             |
 | :----------- | :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ are also not currently supported.
 | `u`          | Underlined                      |                                                                                                                                                     |
 | `ul`         | Unordered list                  | Supports the standard [list attributes](html-support.md#list-attributes).                                                                           |
 
-#### Block Attributes
+#### Block attributes
 
 The following attributes are supported by the `div`, `dl`, `dt`, `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p` tags:
 
@@ -72,7 +72,7 @@ The following attributes are supported by the `div`, `dl`, `dt`, `h1`, `h2`, `h3
 | `align`   | `left`, `right`, `center`, `justify` |
 | `dir`     | `ltr`, `rtl`                         |
 
-#### List Attributes
+#### List attributes
 
 The following attribute is supported by the `ol` and `ul` tags:
 
@@ -80,7 +80,7 @@ The following attribute is supported by the `ol` and `ul` tags:
 | :-------- | :---------------------------------------- |
 | `type`    | `1`, `a`, `A`, `square`, `disc`, `circle` |
 
-#### Table Cell Attributes
+#### Table cell attributes
 
 The following attributes are supported by the `td` and `th` tags:
 
@@ -93,7 +93,7 @@ The following attributes are supported by the `td` and `th` tags:
 | `align`   | `left`, `right`, `center`, `justify` |
 | `valign`  | `top`, `middle`, `bottom`            |
 
-### Supported CSS Properties
+### Supported CSS properties
 
 | Property                           | Values                                  | Description                                                              |
 | ---------------------------------- | --------------------------------------- | ------------------------------------------------------------------------ |
@@ -152,7 +152,7 @@ The following attributes are supported by the `td` and `th` tags:
 | `line-height`                        | `<number>`[`%` \| `px` \| `pt` \| `cm`] | Specifies the height of a line. It can be one of the following: 1) fixed line height in pixels, points, or centimeters. 2) a percentage of the current font size. |
 
 
-### Supported CSS Selectors
+### Supported CSS selectors
 
 All CSS 2.1 selector classes are supported except pseudo-class selectors such as `:first-child`, `:visited` and
 `:hover`.

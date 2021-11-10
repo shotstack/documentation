@@ -3,15 +3,15 @@ title: Limitations
 description: System considerations and limitations
 ---
 
-### Render Time
+### Render time
 
-Rendering video is a CPU and memory intensive process and takes time to complete – expect 1 to 4 seconds rendering time
+Rendering video is a CPU and memory intensive process and takes time to complete – expect 1 to 2 seconds rendering time
 per second of video.
 
 It will be slower at higher resolutions \(i.e. 1080p HD vs SD\) and with effects, filters and transitions applied. Keep
 this in mind when doing status requests to check if a render has completed or not.
 
-### Usage Limits
+### Usage limits
 
 The production API has the following usage limits:
 
@@ -27,7 +27,7 @@ The sandbox API has the following usage limits:
 
 To reduce the number of polling requests consider using [webhooks](webhooks.md).
 
-### Environment Limits
+### Environment limits
 
 The render environment has the following limits:
 
