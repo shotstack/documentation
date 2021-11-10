@@ -1,6 +1,6 @@
 ---
 title: Merging Data
-description: How to build templates with merge fields.
+description: How to merge data and build templates with merge fields
 ---
 
 # Merging Data
