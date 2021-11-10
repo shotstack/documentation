@@ -18,6 +18,7 @@ module.exports = {
         "architecting-an-application/html-support",
         "architecting-an-application/disk-types",
         "architecting-an-application/caching",
+        "architecting-an-application/inspect-assets",
         "architecting-an-application/limitations",
       ],
       "Serving Assets": [
