@@ -14,6 +14,7 @@ module.exports = {
       "Architecting an Application": [
         "architecting-an-application/guidelines",
         "architecting-an-application/webhooks",
+        "architecting-an-application/merging-data",
         "architecting-an-application/html-support",
         "architecting-an-application/disk-types",
         "architecting-an-application/caching",
