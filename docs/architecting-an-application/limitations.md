@@ -15,15 +15,20 @@ this in mind when doing status requests to check if a render has completed or no
 
 The production API has the following usage limits:
 
-- 10 requests per second
-- 10,000 requests per day \(including polling and renders\)
-
-Limits may be increased if needed, please contact us.
+| Plan | Request Rate | Request Quota (per day) | Request Quota (per month) |
+| :-- | :---: | :---: | :---: |
+| Free | 1 | 100 | 1000 |
+| Essentials | 10 | 1000 | 10000 |
+| Professional | 10 | 10000 | 100000 |
+| Custom | 10 | custom | custom |
 
 The sandbox API has the following usage limits:
 
-- 10 requests per second
-- 2,000 requests per month \(including polling and renders\)
+| Plan | Request Rate | Request Quota (per day) | Request Quota (per month) |
+| :-- | :---: | :---: | :---: |
+| Sandbox | 1 | - | 2000 |
+
+Note: request quotas includes polling and rendering.
 
 To reduce the number of polling requests consider using [webhooks](webhooks.md).
 
